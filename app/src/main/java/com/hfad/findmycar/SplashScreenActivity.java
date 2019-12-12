@@ -16,7 +16,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         EasySplashScreen config = new EasySplashScreen(SplashScreenActivity.this)
                 .withFullScreen()
                 .withTargetActivity(MapsActivity.class)
-                .withSplashTimeOut(5000)
+                .withSplashTimeOut(6000)
                 .withLogo(R.mipmap.appfront);
 
         View easySplashScreen = config.create();
